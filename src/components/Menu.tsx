@@ -1,14 +1,16 @@
-import { motion } from "framer-motion";
-import { useInView } from "framer-motion";
+import { motion, AnimatePresence, useInView } from "framer-motion";
 import { useRef, useState } from "react";
-import seafoodImage from "@/assets/seafood-display.jpg";
-import cocktailsImage from "@/assets/cocktails.jpg";
+import daterra from "@/assets/daterra.jpg";
+import domar from "@/assets/domar.jpg";
+import dodrink from "@/assets/dodrink.jpg";
+
 
 const menuCategories = [
   {
     id: "mar",
     title: "Das Águas",
     description: "Frutos do mar frescos e preparações refinadas",
+    image: domar, 
     items: [
       { name: "Camarão Portokalies", price: "R$ 296", description: "Com queijo no espeto, musseline de batata e crispy de alho-poró" },
       { name: "Lagosta Portokalies", price: "R$ 485", description: "Com salmão grelhado, risoto de alho-poró e legumes tostados" },
@@ -20,6 +22,7 @@ const menuCategories = [
     id: "terra",
     title: "Da Terra",
     description: "Carnes selecionadas e porções especiais",
+    image: daterra, 
     items: [
       { name: "Iscas de Picanha", price: "R$ 150", description: "Acebolada com farofa especial da casa" },
       { name: "Iscas de Mignon", price: "R$ 150", description: "Com gorgonzola e farofa" },
@@ -31,6 +34,7 @@ const menuCategories = [
     id: "drinks",
     title: "Drinks",
     description: "Coquetéis autorais e clássicos revisitados",
+    image: dodrink,
     items: [
       { name: "Portokalies", price: "R$ 49", description: "Gim, espumante, purê de morango e xarope de limão siciliano" },
       { name: "Clericot", price: "R$ 55", description: "Espumante exclusivo, água com gás, shrub de uva verde" },
@@ -90,29 +94,47 @@ const Menu = () => {
 
         {/* Content Grid */}
         <div className="grid lg:grid-cols-2 gap-12 items-start">
-          {/* Image */}
-          <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
-            animate={isInView ? { opacity: 1, scale: 1 } : {}}
-            transition={{ duration: 0.8, delay: 0.3 }}
-            className="relative"
-          >
-            <img
-              src={activeCategory === "drinks" ? cocktailsImage : seafoodImage}
-              alt={activeMenu?.title}
-              className="w-full h-[400px] md:h-[500px] object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-secondary/30 to-transparent" />
-            <div className="absolute bottom-6 left-6 right-6">
-              <p className="font-display text-3xl text-background">
-                {activeMenu?.title}
-              </p>
-              <p className="font-body text-sm text-background/80 mt-1">
-                {activeMenu?.description}
-              </p>
-            </div>
-          </motion.div>
+            {/* Image */}
+            <div className="relative">
+              <AnimatePresence mode="wait">
+                <motion.img
+                  key={activeCategory}
+                  src={activeMenu?.image}
+                  alt={activeMenu?.title}
+                  className="w-full h-[400px] md:h-[500px] object-cover"
+                  initial={{ opacity: 0, scale: 1.06 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  exit={{ opacity: 0, scale: 1.02 }}
+                  transition={{ duration: 0.35, ease: "easeOut" }}
+                />
+              </AnimatePresence>
 
+              {/* Overlay abaixo do texto */}
+              <div className="absolute inset-0 z-10 bg-gradient-to-t from-secondary/60 to-transparent pointer-events-none" />
+
+              {/* Texto acima do overlay */}
+              <div className="absolute bottom-6 left-6 right-6 z-20">
+               <AnimatePresence mode="wait">
+                  <motion.div
+                    key={activeCategory}
+                    initial={{ opacity: 0, y: 20 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -10 }}
+                    transition={{ duration: 0.4, ease: "easeOut" }}
+                    className="absolute bottom-6 left-6 right-6 z-20"
+                  >
+                    <p className="font-display text-3xl text-white">
+                      {activeMenu?.title}
+                    </p>
+                    <p className="font-body text-sm text-white/80 mt-1">
+                      {activeMenu?.description}
+                    </p>
+                  </motion.div>
+                </AnimatePresence>
+              </div>
+            </div>
+
+       
           {/* Menu Items */}
           <motion.div
             key={activeCategory}
@@ -133,9 +155,6 @@ const Menu = () => {
                   <h3 className="font-display text-2xl text-foreground group-hover:text-primary transition-colors">
                     {item.name}
                   </h3>
-                  <span className="font-display text-xl text-primary whitespace-nowrap ml-4">
-                    {item.price}
-                  </span>
                 </div>
                 <p className="font-body text-sm text-muted-foreground">
                   {item.description}
@@ -145,7 +164,7 @@ const Menu = () => {
 
             <div className="pt-6">
               <a
-                href="#"
+                href="https://drive.google.com/file/d/1E9fFa-mTQU0F3Z9nAm__cjk98JwWCdVZ/view?usp=drive_link"
                 className="btn-outline-elegant inline-flex border-foreground text-foreground hover:bg-foreground hover:text-background"
               >
                 Ver Cardápio Completo

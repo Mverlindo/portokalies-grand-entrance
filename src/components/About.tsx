@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
-import interiorImage from "@/assets/restaurant-interior.jpg";
+import interiorImage from "@/assets/Interior.jpg";
 
 const About = () => {
   const ref = useRef(null);
@@ -45,7 +45,7 @@ const About = () => {
 
             <div className="space-y-6 text-muted-foreground font-body leading-relaxed">
               <p>
-                <span className="font-display text-2xl text-foreground italic">
+                <span className=" text-2xl text-foreground italic">
                   Portokalies
                 </span>{" "}
                 vem da palavra grega "πορτοκαλιές", que significa "laranjeiras" –

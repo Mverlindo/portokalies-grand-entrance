@@ -29,7 +29,7 @@ const Hero = () => {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.4 }}
-          className="font-display text-5xl md:text-7xl lg:text-8xl text-background font-light tracking-wide mb-6"
+          className="text-5xl md:text-7xl lg:text-8xl text-background font-light tracking-wide mb-6"
         >
           Portokalies
         </motion.h1>

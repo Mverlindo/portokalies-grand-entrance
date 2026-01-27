@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import image from "@/assets/logo_Preto.png";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,22 +32,10 @@ const Header = () => {
     >
       <div className="container mx-auto px-6 flex items-center justify-between">
         {/* Logo */}
-        <a href="#" className="flex flex-col items-center">
-          <span
-            className={`font-display text-2xl md:text-3xl tracking-[0.15em] transition-colors duration-300 ${
-              isScrolled ? "text-foreground" : "text-background"
-            }`}
-          >
-            PORTOKALIES
-          </span>
-          <span
-            className={`font-body text-[10px] tracking-[0.4em] uppercase transition-colors duration-300 ${
-              isScrolled ? "text-primary" : "text-background/80"
-            }`}
-          >
-            Restaurante
-          </span>
-        </a>
+        <img
+                src={image}
+                className="w-33 h-16 logo"
+        />
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center gap-10">

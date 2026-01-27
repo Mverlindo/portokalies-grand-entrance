@@ -1,0 +1,425 @@
+%!Adobe-FontList 1.25
+%Locale:0x416
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projetos\portokalies\portokalies-grand-entrance\src\assets\Font\achilles.zip
+FileModTime:1769081693
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:D:\Projetos\portokalies\portokalies-grand-entrance\src\assets\Font\achilles\achilles.txt
+FileModTime:1769081700
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Achilles
+FamilyName:Achilles
+StyleName:Regular
+FullName:Achilles
+MenuName:Achilles
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Projetos\portokalies\portokalies-grand-entrance\src\assets\Font\achilles\achilles3.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:64136
+FileModTime:1769081700
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Achilles
+NameArray:0,Win,1,Achilles
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Achilles3D
+FamilyName:Achilles 3D
+StyleName:Regular
+FullName:Achilles 3D
+MenuName:Achilles 3D
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Projetos\portokalies\portokalies-grand-entrance\src\assets\Font\achilles\achilles33d.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:105244
+FileModTime:1769081700
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Achilles 3D
+NameArray:0,Win,1,Achilles 3D
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Achilles3DItalic
+FamilyName:Achilles 3D Italic
+StyleName:Italic
+FullName:Achilles 3D Italic
+MenuName:Achilles 3D Italic
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Projetos\portokalies\portokalies-grand-entrance\src\assets\Font\achilles\achilles33dital.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:109524
+FileModTime:1769081700
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Achilles 3D Italic
+NameArray:0,Win,1,Achilles 3D Italic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AchillesBold
+FamilyName:Achilles Bold
+StyleName:Bold
+FullName:Achilles Bold
+MenuName:Achilles Bold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Projetos\portokalies\portokalies-grand-entrance\src\assets\Font\achilles\achilles3bold.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:72412
+FileModTime:1769081700
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Achilles Bold
+NameArray:0,Win,1,Achilles Bold
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AchillesBoldItalic
+FamilyName:Achilles Bold Italic
+StyleName:Bold Italic
+FullName:Achilles Bold Italic
+MenuName:Achilles Bold Italic
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Projetos\portokalies\portokalies-grand-entrance\src\assets\Font\achilles\achilles3boldital.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:75632
+FileModTime:1769081700
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Achilles Bold Italic
+NameArray:0,Win,1,Achilles Bold Italic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AchillesCondensed
+FamilyName:Achilles Condensed
+StyleName:Condensed
+FullName:Achilles Condensed
+MenuName:Achilles Condensed
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Projetos\portokalies\portokalies-grand-entrance\src\assets\Font\achilles\achilles3cond.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:63808
+FileModTime:1769081700
+WeightClass:400
+WidthClass:3
+AngleClass:0
+NameArray:0,Mac,4,Achilles Condensed
+NameArray:0,Win,1,Achilles Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AchillesCondensedItalic
+FamilyName:Achilles Condensed Italic
+StyleName:Condensed Italic
+FullName:Achilles Condensed Italic
+MenuName:Achilles Condensed Italic
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Projetos\portokalies\portokalies-grand-entrance\src\assets\Font\achilles\achilles3condital.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:66268
+FileModTime:1769081700
+WeightClass:400
+WidthClass:3
+AngleClass:0
+NameArray:0,Mac,4,Achilles Condensed Italic
+NameArray:0,Win,1,Achilles Condensed Italic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AchillesExpanded
+FamilyName:Achilles Expanded
+StyleName:Expanded
+FullName:Achilles Expanded
+MenuName:Achilles Expanded
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Projetos\portokalies\portokalies-grand-entrance\src\assets\Font\achilles\achilles3expand.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:64764
+FileModTime:1769081700
+WeightClass:400
+WidthClass:7
+AngleClass:0
+NameArray:0,Mac,4,Achilles Expanded
+NameArray:0,Win,1,Achilles Expanded
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AchillesExpandedItalic
+FamilyName:Achilles Expanded Italic
+StyleName:Expanded Italic
+FullName:Achilles Expanded Italic
+MenuName:Achilles Expanded Italic
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Projetos\portokalies\portokalies-grand-entrance\src\assets\Font\achilles\achilles3expandital.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:67000
+FileModTime:1769081700
+WeightClass:400
+WidthClass:7
+AngleClass:0
+NameArray:0,Mac,4,Achilles Expanded Italic
+NameArray:0,Win,1,Achilles Expanded Italic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AchillesGradient
+FamilyName:Achilles Gradient
+StyleName:Regular
+FullName:Achilles Gradient
+MenuName:Achilles Gradient
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Projetos\portokalies\portokalies-grand-entrance\src\assets\Font\achilles\achilles3grad.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:105792
+FileModTime:1769081700
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Achilles Gradient
+NameArray:0,Win,1,Achilles Gradient
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AchillesGradientItalic
+FamilyName:Achilles Gradient Italic
+StyleName:Italic
+FullName:Achilles Gradient Italic
+MenuName:Achilles Gradient Italic
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Projetos\portokalies\portokalies-grand-entrance\src\assets\Font\achilles\achilles3gradital.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:108744
+FileModTime:1769081700
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Achilles Gradient Italic
+NameArray:0,Win,1,Achilles Gradient Italic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AchillesItalic
+FamilyName:Achilles Italic
+StyleName:Italic
+FullName:Achilles Italic
+MenuName:Achilles Italic
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Projetos\portokalies\portokalies-grand-entrance\src\assets\Font\achilles\achilles3ital.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:66464
+FileModTime:1769081700
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Achilles Italic
+NameArray:0,Win,1,Achilles Italic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AchillesLeftalic
+FamilyName:Achilles Leftalic
+StyleName:Italic
+FullName:Achilles Leftalic
+MenuName:Achilles Leftalic
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Projetos\portokalies\portokalies-grand-entrance\src\assets\Font\achilles\achilles3left.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:66472
+FileModTime:1769081700
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Achilles Leftalic
+NameArray:0,Win,1,Achilles Leftalic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AchillesOutline
+FamilyName:Achilles Outline
+StyleName:Outline
+FullName:Achilles Outline
+MenuName:Achilles Outline
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Projetos\portokalies\portokalies-grand-entrance\src\assets\Font\achilles\achilles3out.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:102504
+FileModTime:1769081700
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Achilles Outline
+NameArray:0,Win,1,Achilles Outline
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AchillesOutlineItalic
+FamilyName:Achilles Outline Italic
+StyleName:Outline Italic
+FullName:Achilles Outline Italic
+MenuName:Achilles Outline Italic
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Projetos\portokalies\portokalies-grand-entrance\src\assets\Font\achilles\achilles3outital.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:108088
+FileModTime:1769081700
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Achilles Outline Italic
+NameArray:0,Win,1,Achilles Outline Italic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AchillesSemi-Italic
+FamilyName:Achilles Semi-Italic
+StyleName:Semi-Italic
+FullName:Achilles Semi-Italic
+MenuName:Achilles Semi-Italic
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Projetos\portokalies\portokalies-grand-entrance\src\assets\Font\achilles\achilles3semital.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:66392
+FileModTime:1769081700
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Achilles Semi-Italic
+NameArray:0,Win,1,Achilles Semi-Italic
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AchillesSuper-Italic
+FamilyName:Achilles Super-Italic
+StyleName:Super-Italic
+FullName:Achilles Super-Italic
+MenuName:Achilles Super-Italic
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\Projetos\portokalies\portokalies-grand-entrance\src\assets\Font\achilles\achilles3superital.ttf
+DataFormat:sfntData
+hasSVG:no
+hasCOLR:no
+VariableFontType:NonVariableFont
+FileLength:66760
+FileModTime:1769081700
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Achilles Super-Italic
+NameArray:0,Win,1,Achilles Super-Italic
+%EndFont
+

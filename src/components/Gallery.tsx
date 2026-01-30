@@ -1,19 +1,19 @@
 import { AnimatePresence, motion, useInView } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
 
-import galeria_7 from "@/assets/GALERIA/1.gif";
-import galeria_2 from "@/assets/GALERIA/2.gif";
-import galeria_3 from "@/assets/GALERIA/3.gif";
-import galeria_4 from "@/assets/GALERIA/4.gif";
-import galeria_5 from "@/assets/GALERIA/5.gif";
-import galeria_6 from "@/assets/GALERIA/6.gif";
-import galeria_1 from "@/assets/GALERIA/7.gif";
-import galeria_8 from "@/assets/GALERIA/8.gif";
-import galeria_9 from "@/assets/GALERIA/9.gif";
-import galeria_10 from "@/assets/GALERIA/10.gif";
-import galeria_11 from "@/assets/GALERIA/11.gif";
-import galeria_12 from "@/assets/GALERIA/12.gif";
-import galeria_13 from "@/assets/GALERIA/13.gif";
+import galeria_7 from "@/assets/GALERIA/1.webp";
+import galeria_2 from "@/assets/GALERIA/2.webp";
+import galeria_3 from "@/assets/GALERIA/3.webp";
+import galeria_4 from "@/assets/GALERIA/4.webp";
+import galeria_5 from "@/assets/GALERIA/5.webp";
+import galeria_6 from "@/assets/GALERIA/6.webp";
+import galeria_1 from "@/assets/GALERIA/7.webp";
+import galeria_8 from "@/assets/GALERIA/8.webp";
+import galeria_9 from "@/assets/GALERIA/9.webp";
+import galeria_10 from "@/assets/GALERIA/10.webp";
+import galeria_11 from "@/assets/GALERIA/11.webp";
+import galeria_12 from "@/assets/GALERIA/12.webp";
+import galeria_13 from "@/assets/GALERIA/13.webp";
 
 const galleryImages = [
   { src: galeria_6, alt: "Ambiente elegante do restaurante" },
